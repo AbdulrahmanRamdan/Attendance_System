@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#682C08"
+    tools:context=".admin_page">
+
+    <Button
+        android:id="@+id/logoutbtn"
+        android:layout_width="448dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="428dp"
+        android:text="log out"
+        android:textAllCaps="true"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addstudentbutton" />
+
+    <Button
+        android:id="@+id/veiwfacolutybtn"
+        android:layout_width="462dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="344dp"
+        android:text="veiw faculty"
+        android:textAllCaps="true"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addstudentbutton" />
+
+    <Button
+        android:id="@+id/attendancebtn4"
+        android:layout_width="436dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="248dp"
+        android:text="add faculty"
+        android:textAllCaps="true"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addstudentbutton" />
+
+    <Button
+        android:id="@+id/deldtn"
+        android:layout_width="442dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="140dp"
+        android:text="delete and update student"
+        android:textAllCaps="true"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addstudentbutton" />
+
+    <Button
+        android:id="@+id/addstudentbutton"
+        android:layout_width="446dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="31dp"
+        android:text="Add student"
+        android:textAllCaps="true"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="444dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="40dp"
+        android:text="veiw student"
+        android:textAllCaps="true"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addstudentbutton" />
+</androidx.constraintlayout.widget.ConstraintLayout>

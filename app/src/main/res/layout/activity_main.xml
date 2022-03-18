@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DFD7D7"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/logindtn"
+        android:layout_width="94dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="168dp"
+        android:layout_marginRight="168dp"
+        android:background="@drawable/ic_launcher_background"
+        android:text="login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pass_word" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="94dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="168dp"
+        android:layout_marginRight="168dp"
+        android:background="@drawable/ic_launcher_background"
+        android:text="Register"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logindtn" />
+
+    <EditText
+        android:id="@+id/usertext"
+        android:layout_width="171dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="152dp"
+        android:layout_marginRight="152dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_spinner" />
+
+    <TextView
+        android:id="@+id/usertextView"
+        android:layout_width="89dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="44dp"
+        android:text="user name"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/usertext"
+        app:layout_constraintTop_toBottomOf="@+id/login_spinner" />
+
+    <EditText
+        android:id="@+id/pass_word"
+        android:layout_width="169dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="152dp"
+        android:layout_marginRight="152dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/usertext" />
+
+    <TextView
+        android:id="@+id/passtextView"
+        android:layout_width="89dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="52dp"
+        android:text="pass word"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/pass_word"
+        app:layout_constraintTop_toBottomOf="@+id/usertextView" />
+
+    <Spinner
+        android:id="@+id/login_spinner"
+        android:layout_width="190dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="104dp"
+        android:layout_marginRight="104dp"
+        android:entries="@array/choise_kind"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tiltetext" />
+
+    <TextView
+        android:id="@+id/tiltetext"
+        android:layout_width="257dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
+        android:lineSpacingExtra="24sp"
+        android:text="Attendance System"
+        android:textAllCaps="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        android:typeface="normal"
+        app:fontFamily="cursive"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

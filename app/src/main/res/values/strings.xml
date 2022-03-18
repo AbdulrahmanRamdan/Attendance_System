@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">attendance_System</string>
+    <string-array name="choise_kind">
+        <item>admin</item>
+        <item>faculty</item>
+    </string-array>
+    <string-array name="department">
+        <item>IS</item>
+        <item>CS</item>
+        <item>IT</item>
+    </string-array>
+</resources>

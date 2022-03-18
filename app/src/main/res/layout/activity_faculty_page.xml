@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#714545"
+    tools:context=".faculty_page">
+
+    <Button
+        android:id="@+id/logoutbtn"
+        android:layout_width="259dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:background="@android:drawable/arrow_down_float"
+        android:text="log out"
+        android:textAllCaps="true"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/upsb" />
+
+    <Button
+        android:id="@+id/addStb"
+        android:layout_width="259dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
+        android:background="@android:drawable/bottom_bar"
+        android:text="AddStudent"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/upsb"
+        android:layout_width="334dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@android:drawable/bottom_bar"
+        android:text="updareanddeleteStudent"
+        android:textAllCaps="true"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/VeiwSb" />
+
+    <Button
+        android:id="@+id/VeiwSb"
+        android:layout_width="334dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@android:drawable/bottom_bar"
+        android:text="Veiwstudent"
+        android:textAllCaps="true"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addStb" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
